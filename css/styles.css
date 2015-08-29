@@ -2,6 +2,7 @@ body {
   background-color: #1a1a1a;
   width: 100%;
   height: 100%;
+  font-family: sans-serif;
 }
 
 .middle-content {
@@ -113,4 +114,56 @@ body {
   -ms-transition: 0.25s transform ease;
   -o-transition: 0.25s transform ease;
   transition: 0.25s transform ease;
+}
+
+/* WORKS STYLES */
+
+.works-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: #979797;
+  box-sizing: border-box;
+  min-height: 500px;
+}
+
+.works-wrapper a {
+  color: #000;
+}
+
+.works-wrapper a:hover .work-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.25s background-color ease;
+}
+
+.work-container {
+  width: 33.33%;
+  height: 350px;
+  box-sizing: border-box;
+  float: left;
+  padding: 8px;
+  margin-bottom: 50px;
+  transition: 0.25s background-color ease;
+}
+
+.work-container h2 {
+  text-align: center;
+  padding: 5px;
+  background-color: #707070;
+}
+
+.secondary-heading {
+  font-size: 20px;
+}
+
+.work-container p {
+  padding: 8px;
+  font-family: serif;
+  line-height: 1.4em;
+}
+
+.work-container-footer {
+  clear: both;
+  width: 100%;
+  height: 10px;
 }
