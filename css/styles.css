@@ -149,6 +149,7 @@ body {
   /*background: #979797;*/
   box-sizing: border-box;
   min-height: 500px;
+  transition: 0.5s width ease;
 }
 
 .works-wrapper a {
@@ -170,6 +171,7 @@ body {
   padding: 8px;
   margin-bottom: 5px;
   /*background: #979797;*/
+  transition: 0.5s width ease;
 }
 
 .work-container-inner {
@@ -209,6 +211,7 @@ body {
 @media screen and (max-width: 1000px) {
   .work-container {
     width: 50%;
+    transition: 0.5s width ease;
   }
 }
 
@@ -251,12 +254,14 @@ body {
 
   .works-wrapper {
     width: 100%;
+    transition: 0.5s width ease;
   }
 
   .work-container {
     width: 100%;
     float: none;
     margin: 0 auto;
+    transition: 0.5s width ease;
   }
 
   .work-container-inner {
