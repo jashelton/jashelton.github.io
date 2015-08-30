@@ -295,5 +295,6 @@ body {
 
   .work-container-inner {
     background-color: rgba(112, 112, 112, 1);
+    height: 380px;
   }
 }
