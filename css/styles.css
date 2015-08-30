@@ -176,13 +176,15 @@ body {
 
 .work-container-inner {
   background-color: rgba(112, 112, 112, 0.8);
-  min-height: 350px;
+  min-height: 360px;
   transition: 0.25s background-color ease;
+  position: relative;
 }
 
 .work-container h2 {
   text-align: center;
   padding: 10px 5px;
+  height: 50px;
   /*background-color: #707070;*/
 }
 
@@ -194,6 +196,33 @@ body {
   padding: 8px;
   font-family: serif;
   line-height: 1.4em;
+}
+
+.work-links-ul {
+  font-family: untitled-font-1;
+  font-size: 32px;
+}
+
+.work-links-li {
+  display: inline;
+}
+
+.github-icon {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  transition: 0.25s color ease;
+}
+
+.github-icon:hover {
+  color: #2D0F58;
+  transition: 0.25s color ease;
+}
+
+.view-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .work-container-footer {
