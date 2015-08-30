@@ -174,7 +174,7 @@ body {
 
 .work-container-inner {
   background-color: rgba(112, 112, 112, 0.8);
-  height: 350px;
+  min-height: 350px;
   transition: 0.25s background-color ease;
 }
 
