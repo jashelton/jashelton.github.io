@@ -165,7 +165,7 @@ body {
 
 .work-container {
   width: 33.33%;
-  min-height: 350px;
+  min-height: 450px;
   box-sizing: border-box;
   float: left;
   padding: 8px;
@@ -176,9 +176,12 @@ body {
 
 .work-container-inner {
   background-color: rgba(112, 112, 112, 0.8);
-  min-height: 360px;
+  height: 550px;
   transition: 0.25s background-color ease;
   position: relative;
+  /*background: url('../images/pim-image.png');
+  background-size: contain;
+  background-repeat: no-repeat;*/
 }
 
 .work-container h2 {
@@ -295,6 +298,6 @@ body {
 
   .work-container-inner {
     background-color: rgba(112, 112, 112, 1);
-    height: 380px;
+    height: 650px;
   }
 }
