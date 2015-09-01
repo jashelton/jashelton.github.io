@@ -219,7 +219,7 @@ body {
 }
 
 .secondary-heading {
-  font-size: 20px;
+  font-size: 1.25em;
 }
 
 .work-container p {
@@ -230,7 +230,7 @@ body {
 
 .work-links-ul {
   font-family: untitled-font-1;
-  font-size: 32px;
+  font-size: 2em;
 }
 
 .work-links-li {
@@ -274,7 +274,7 @@ body {
   }
 
   .personal-info {
-    font-size: 42px;
+    font-size: 2.625em;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 100%;
@@ -297,11 +297,11 @@ body {
     display: inline-block;
     padding: 10px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 1.25em;
   }
 
   .personal-info {
-    font-size: 40px;
+    font-size: 2.5em;
   }
 
   .works-wrapper {
