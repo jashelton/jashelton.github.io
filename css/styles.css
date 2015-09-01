@@ -12,7 +12,7 @@ body {
   bottom: 0;
   left: 0;
   overflow: scroll;
-  background: linear-gradient(to bottom right, rgba(26, 26, 26, 0.8) 0%, rgba(26, 26, 26, 0.9) 59%, rgba(26, 26, 26, 0.8) 100%),
+  background: linear-gradient(to bottom right, rgba(26, 26, 26, 1) 0%, rgba(26, 26, 26, 0.92) 59%, rgba(26, 26, 26, 1) 100%),
   url('../images/hero-bg.jpg') center fixed;
 }
 
@@ -49,7 +49,7 @@ body {
   font-size: 18px;
 }
 
-.personal-info {
+.personal-info, .personal-info-h2 {
   text-align: center;
   color: #707070;
   font-size: 42px;
@@ -58,6 +58,12 @@ body {
   margin-top: -150px;
   margin-bottom: 150px;
   width: 90%;
+}
+
+.personal-info-h2 {
+  font-size: 20px;
+  padding-top: 15px;
+  width: 40%;
 }
 
 .navigation-container {
