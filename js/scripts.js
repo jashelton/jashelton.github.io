@@ -1,5 +1,7 @@
+window.location="http://www.sheltonjs.com";
 $(function() {
   'use strict'
+
 
 var quotesArr = new Array();
 
